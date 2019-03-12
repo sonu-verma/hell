@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Welcome to Samsara</title>
+
+<!-- plugins CSS -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+<!-- owl.carousel CSS file -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css" rel="stylesheet">
+<!-- bxSlider CSS file -->
+<link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+<link href="assets/css/select-bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.min.css" />
+
+<!-- Custom CSS -->
+<link href="assets/css/samsara.css" rel="stylesheet">
+<link href="assets/css/other-style.css" rel="stylesheet">
+<link href="assets/css/media.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body class="inner-body">
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<!-- page wrapper start here -->
+<div class="wrapper">
+ <div class="vertical-menu">
+    <ul>
+      <li class="text-center active"> <a href="javascript:void(0);"> <img src="assets/images/in-home-icon.png" alt="" class="center-block" /> Dashboard </a> </li>
+      <li class="text-center"> <a href="javascript:void(0);"> <img src="assets/images/in-user-icon.png" alt="" class="center-block" /> My Profile </a> </li>
+      <li class="text-center"> <a href="javascript:void(0);"> <img src="assets/images/in-wallet-icon.png" alt="" class="center-block" /> Post Truck </a> </li>
+      <li class="text-center"> <a href="javascript:void(0);"> <img src="assets/images/in-pay-details-icon.png" alt="" class="center-block" /> Payment Details </a> </li>
+      <li class="text-center"> <a href="javascript:void(0);"> <img src="assets/images/in-track-icon.png" alt="" class="center-block" /> Track </a> </li>
+      <li class="text-center"> <a href="javascript:void(0);"> <img src="assets/images/in-rating-icon.png" alt="" class="center-block" /> Rating </a> </li>
+    </ul>
+  </div>
+  
+  
+  <div class="clearfix"></div>
+  <section class="mid-content bg-grey">
+   <!-- header start here -->
+  <header class="header inner-header">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
+          <a class="navbar-brand" href="index.html">LOGO</a> </div>
+        <div class="pull-right navzWrap">
+          <div class="row">
+            <div class="collapse navbar-collapse" id="myNavbar-In">
+              <div class="h-r-top">
+                <ul class="nav navbar-nav">
+                  <li class="call-us-top"> 
+                    <!-- <a href="tel:1800123456789"> --> 
+                    <img src="assets/images/phn-icn.png" alt="" /> 1800123456789 
+                    <!-- </a> --> 
+                  </li>
+                  <li> <a href="mailto:email@logistiksforce.com"> <img src="assets/images/mail-icn.png" alt="" /> email@logistiksforce.com </a> </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right nav-top-right">
+                  <li><a href="javascript:void(0);">About Us</a></li>
+                  <li><a href="javascript:void(0);">Careers</a></li>
+                  <li><a href="javascript:void(0);">FAQ</a></li>
+                  <li><a href="javascript:void(0);">Contact Us</a></li>
+                  <span class="dropdown pull-right desktop">
+                  <button class="btn bg-d-grey dropdown-toggle" type="button" data-toggle="dropdown"> English <i class="fa fa-chevron-down" aria-hidden="true"></i> </button>
+                  <ul class="dropdown-menu animated slideInUp">
+                    <li><a href="javascript:void(0);">English</a></li>
+                  </ul>
+                  </span>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <div class="h-r-bottom bg-white">
+                <h1 class="pull-right"> <span class="user-span">Welcome <span>Amol Mendadkar</span></span> <img src="assets/images/profile-icon.png" alt="" /> </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /header ends here-->
+    <div class="transactionWrap wizard-three">
+      <div class="col-sm-12">
+        <div class="stepformbox">
+          <div class="stepwizard">
+            <div class="stepwizard-row setup-panel">
+              <div class="stepwizard-step"> <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
+                <p>Mode Selection</p>
+              </div>
+              <div class="stepwizard-step"> <a href="#step-2" type="button" class="btn btn-default btn-circle">2</a>
+                <p>Choose Your Vendor</p>
+              </div>
+              <div class="stepwizard-step"> <a href="#step-3" type="button" class="btn btn-default btn-circle">3</a>
+                <p>Payment Details</p>
+              </div>
+            </div>
+          </div>
+        
+        <div class="transactions"> 
+        <div class="row setup-content" id="step-1">
+          <!-- transaction left area start here -->
+          <div class="mid-right pull-left">
+            <div class="Trnsprtn-type bg-white">
+              <div class="h2-title">
+                <h2 class="inner-h2 ttl-brdr-bt">Transportation
+                  <div class="clearfix"></div>
+                  <span class="mode">Select the mode</span>
+                </h2>
+                 
+              </div>
+              <div class="clearfix"></div>
+              <ul class="clearfix list-inline circle-mode">
+                <li class="text-center"> <a href="javascript:void(0)" class="select-mode"> <img src="assets/images/in-air.png" class="defalut-icn" alt="" /> <img src="assets/images/in-air-h.png" class="hover-icn" alt="" /> </a> <span>Air</span> </li>
+                <li class="text-center"> <a href="javascript:void(0)" class="select-mode"> <img src="assets/images/in-rail.png" class="defalut-icn" alt="" /> <img src="assets/images/in-rail-h.png" class="hover-icn" alt="" /> </a> <span>Rail</span> </li>
+                <li class="text-center"> <a href="javascript:void(0)" class="select-mode"> <img src="assets/images/in-sea.png" class="defalut-icn" alt="" /> <img src="assets/images/in-sea-h.png" class="hover-icn" alt="" /> </a> <span>Sea</span> </li>
+                <li class="text-center"> <a href="javascript:void(0)" class="select-mode"> <img src="assets/images/in-truck.png" class="defalut-icn" alt="" /> <img src="assets/images/in-truck-h.png" class="hover-icn" alt="" /> </a> <span>Truck</span> </li>
+                <li class="text-center"> <a href="javascript:void(0)" class="select-mode"> <img src="assets/images/in-multi-mode.png" class="defalut-icn" alt="" /> <img src="assets/images/in-multi-mode-h.png" class="hover-icn" alt="" /> </a> <span>Multi Mode</span> </li>
+              </ul>
+            </div>
+            <div class="showArrowOne arrow-dwn">
+             <a href="javascript:void(0);"> <img src="assets/images/trans-arrow-down.png" alt="" class="default-icn center-block" /> <img src="assets/images/trans-arrow-down-h.png" alt="" class="hover-icn center-block" /> </a> 
+            </div>
+            <div class="showFirstFold arrow-dwn new-input">
+              <div class="col-xs-12">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-sm-4 selectBoxDiv">
+                      <div class="form-group">
+                        <select class="selectpicker" name="country_selector" data-placeholder="Load Type">
+                          <option value="Dummy Text">Load Type</option>
+                          <option value="Dummy Text1">Dummy Text1</option>
+                          <option value="Dummy Text2">Dummy Text2</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="date">
+                          <div class="input-group input-append date datePicker">
+                            <input type="text" class="form-control form-c" name="date" placeholder="Date" />
+                            <span class="input-group-addon add-on"><i class="fa fa-calendar-o" aria-hidden="true"></i></span> </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 selectBoxDiv">
+                      <div class="form-group">
+                        <select class="selectpicker" name="country_selector" data-placeholder="Commodity">
+                          <option value="Dummy Text">Commodity</option>
+                          <option value="Dummy Text1">Dummy Text1</option>
+                          <option value="Dummy Text2">Dummy Text2</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Cargo Origin"  />
+                        <label for="">Cargo Origin</label>
+                      </div>
+                      <!-- <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Cargo Origin"  />
+                      </div> -->
+                    </div>
+                    <div class="col-sm-4">
+                      <div>
+                        <div class="form-group">
+                          <input maxlength="100" type="text" class="form-control" placeholder="Consignment Weight" />
+                        </div>
+                      </div>
+                      <div class="weight-cate">
+                        <div class="form-group">
+                          <select class="selectpicker" name="country_selector" data-placeholder="Kg">
+                            <option value="Dummy Text">Kg</option>
+                            <option value="Dummy Text1">Gr</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <div class="form-group">
+                            <input maxlength="100" type="text" class="form-control" placeholder="Hazardous" />
+                          </div>
+                        </div>
+                        <div class="weight-cate hazr-mark">
+                          <div class="form-group">
+                            <ul class="list-inline">
+                              <li> <a href="javascript:void(0);" class="btn hazr-check"> <i class="fa fa-check"></i> </a> </li>
+                              <li> <a href="javascript:void(0);" class="btn hazr-cancel"> <i class="fa fa-close"></i> </a> </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Cargo Destination"  />
+                        <label for="">Cargo Destination</label>
+                      </div>
+                      <!-- <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Cargo Destination"  />
+                      </div> -->
+                    </div>
+                    <div class="col-sm-4">
+                      <div>
+                        <div>
+                          <div class="form-group">
+                            <input maxlength="100" type="text" class="form-control" placeholder="Expected No. of Truck" />
+                          </div>
+                        </div>
+                        <div class="weight-cate numbers">
+                          <div class="form-group">
+                            <div class="count-input space-bottom"> <a class="incr-btn" data-action="decrease" href="#"> <i class="fa fa-angle-left"></i> </a>
+                              <input class="quantity" type="text" name="quantity" value="1"/>
+                              <a class="incr-btn" data-action="increase" href="#"> <i class="fa fa-angle-right"></i> </a> </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 selectBoxDiv">
+                      <div class="form-group">
+                        <select class="selectpicker" name="country_selector" data-placeholder="Vehicle Type">
+                          <option value="Dummy Text">Vehicle Type</option>
+                          <option value="Dummy Text1">Dummy Text1</option>
+                          <option value="Dummy Text2">Dummy Text2</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 selectBoxDiv">
+                      <div class="form-group">
+                        <select class="selectpicker" name="country_selector" data-placeholder="Special Requirement">
+                          <option value="Dummy Text">Special Requirement</option>
+                          <option value="Dummy Text1">Dummy Text1</option>
+                          <option value="Dummy Text2">Dummy Text2</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="showArrowTwo arrow-dwn"> 
+                      <a href="javascript:void(0);"> 
+                        <img src="assets/images/trans-arrow-down.png" alt="" class="default-icn center-block" /> 
+                        <img src="assets/images/trans-arrow-down-h.png" alt="" class="hover-icn center-block" /> 
+                      </a> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="showSecndFold arrow-dwn new-input">
+              <div>
+                <div class="col-xs-12 col-sm-8">
+                  <div class="col-sm-6">
+                    <div>
+                      <div>
+                        <div class="form-group">
+                          <input maxlength="100" type="text" class="form-control" placeholder="Labour at Loading" />
+                        </div>
+                      </div>
+                      <div class="weight-cate numbers">
+                        <div class="form-group">
+                          <div class="count-input space-bottom"> <a class="incr-btn" data-action="decrease" href="#"> <i class="fa fa-angle-left"></i> </a>
+                            <input class="quantity" type="text" name="quantity" value="1"/>
+                            <a class="incr-btn" data-action="increase" href="#"> <i class="fa fa-angle-right"></i> </a> </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <div>
+                        <div class="form-group">
+                          <input maxlength="100" type="text" class="form-control" placeholder="Labour at Unloading" />
+                        </div>
+                      </div>
+                      <div class="weight-cate numbers">
+                        <div class="form-group">
+                          <div class="count-input space-bottom"> <a class="incr-btn" data-action="decrease" href="#"> <i class="fa fa-angle-left"></i> </a>
+                            <input class="quantity" type="text" name="quantity" value="1"/>
+                            <a class="incr-btn" data-action="increase" href="#"> <i class="fa fa-angle-right"></i> </a> </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <!-- table start here -->
+                  <div class="col-xs-12">
+                    <div class="table-responsive view-trans-table">
+                      <table class="table" cellspacing="0" width="100%">
+                        <thead>
+                          <tr>
+                            <th>Package Type</th>
+                            <th>Weight</th>
+                            <th>Units</th>
+                            <th>Length</th>
+                            <th>Breadth</th>
+                            <th>Height</th>
+                            <th>UOM</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="form-group">
+                                <input class="magic-checkbox" type="checkbox" name="filter" id="OrderNo-1" value="option1">
+                                <label class="pull-left captext" for="OrderNo-1">
+                                  <span>Bags</span>
+                                </label>
+                              </div>
+                            </td>
+                            <td>1876kgs</td>
+                            <td>84</td>
+                            <td>95 In</td>
+                            <td>68 In</td>
+                            <td>23 In</td>
+                            <td>Metre <i class="fa fa-angle-down"></i></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <!-- table ends here -->
+                  <div class="clearfix"></div>
+                  <div class="col-xs-12">
+                    <div class="row">
+                      <div class="col-sm-6">
+                      <div class="form-group">
+                        <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Total Weight (Kgs)"  />
+                        <label for="">Total Weight (Kgs)</label>
+                      </div>
+                      </div>
+                      <div class="col-sm-6">
+                      <div class="form-group">
+                        <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Total Valume"  />
+                        <label for="">Total Valume</label>
+                      </div>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <div class="form-group">
+                      <div class="imgupload">
+                        <div class="input-group"> <span class="input-group-btn"> <span class="btn btn-default btn-file uploadimg"> <img src="assets/images/imgupload-icon.png" width="48" height="48" alt=""/>
+                          <input type="file" id="imgInp">
+                          </span> </span> 
+                          <!--<input type="text" class="form-control" readonly>--> 
+                          <button type="" class="btn remove-img">X</button>
+                        </div>
+                        <img id='img-upload'/> </div>
+                    </div>
+                  <!-- <div class="form-group">
+                    <label>Upload Image</label>
+                    <div class="imgupload">
+                      <div class="input-group"> <span class="input-group-btn"> <span class="btn btn-default btn-file uploadimg"> <img src="assets/images/imgupload-icon.png" width="48" height="48" alt=""/>
+                        <input type="file" id="imgInp">
+                        </span> </span> 
+                      </div>
+                      <img id='img-upload'/> </div>
+                  </div> -->
+                </div>
+                <div class="col-xs-12">
+                    <div class="col-xs-12">
+                      <div class="form-group">
+                        <textarea  maxlength="100" type="text" required class="form-control" placeholder="Remarks"></textarea>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="last-bot-btn trans-submit">
+                 <button class="btn btn-next nextBtn btn-lg center-block" type="button">Submit</button>
+              </div>
+          </div>
+          <!-- transaction right area start here -->
+          <div class="mid-left pull-left trans-mid-left">
+            <div class="mode-type">
+              <h2 class="inner-h2">Mode</h2>
+              <span class="mode">Load Type</span> </div>
+            <div class="load-details">
+              <h2 class="inner-h2">Load Details</h2>
+              <span class="mode">Load Type</span> <span class="mode">Pickup Date</span> <span class="mode">Commodity</span> <span class="mode">Cargo Origin</span> <span class="mode">Consignment Weight</span> <span class="mode">Hazardous</span> <span class="mode">Cargo Destination</span> <span class="mode">Expected NO. of Truck</span> <span class="mode">Vehicle Type</span> <span class="mode">Special Requirement</span> <span class="mode"> <a href="javascript:void(0);"> <img src="assets/images/pdf-dwnld.png" alt="" /> </a> </span> </div>
+          </div>
+          <!-- transaction right area ends here --> 
+        </div>
+        <div class="row setup-content" id="step-2">
+          <div class="trans-mode"> 
+            <!-- choose-your-mode left area start here -->
+            <div class="mid-right pull-left">
+              <div class="choose-vendor">
+                <div class="pull-left cyv">
+                  <h2 class="inner-h2 ttl-brdr-bt">Choose Your Vendor</h2>
+                </div>
+                <div class="clearfix"></div>
+                <!-- table start here -->
+                <div class="table-responsive">
+                  <table class="data-table table" cellspacing="0" width="100%">
+                    <thead>
+                      <tr>
+                        <th>Route</th>
+                        <th>Distance</th>
+                        <th>Duration</th>
+                        <th>Estimated Fare</th>
+                        <th>Vendor Id</th>
+                        <th>Vehicle Type</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><div class="form-group">
+                            <input class="magic-checkbox" type="checkbox" name="filter" id="vendor-1" value="option1">
+                            <label class="pull-left captext" for="vendor-1"> <span>Dombivili - Cheyyur</span> </label>
+                          </div></td>
+                        <td>100 Kms</td>
+                        <td>24 Hrs</td>
+                        <td>14,000</td>
+                        <td>V00045</td>
+                        <td>Fbh 40</td>
+                      </tr>
+                      <tr>
+                        <td><div class="form-group">
+                            <input class="magic-checkbox" type="checkbox" name="filter" id="vendor-2" value="option1">
+                            <label class="pull-left captext" for="vendor-2"> <span>Dombivili - Cheyyur</span> </label>
+                          </div></td>
+                        <td>100 Kms</td>
+                        <td>24 Hrs</td>
+                        <td>14,000</td>
+                        <td>V00045</td>
+                        <td>Fbh 40</td>
+                      </tr>
+                      <tr>
+                        <td><div class="form-group">
+                            <input class="magic-checkbox" type="checkbox" name="filter" id="vendor-3" value="option1">
+                            <label class="pull-left captext" for="vendor-3"> <span>Dombivili - Cheyyur</span> </label>
+                          </div></td>
+                        <td>100 Kms</td>
+                        <td>24 Hrs</td>
+                        <td>14,000</td>
+                        <td>V00045</td>
+                        <td>Fbh 40</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+                </div>
+                <div class="clearfix"></div>
+                  <div class="btn-wrapper">
+                    <ul class="list-inline leaderbrd-filter text-right">
+                      <li>
+                        <div class="form-group"> <a href="javascript:void(0);" class="btn dwnld-btn">Cost Saver</a> </div>
+                      </li>
+                      <li>
+                        <div class="form-group"> <a href="javascript:void(0);" class="btn dwnld-btn">View</a> </div>
+                      </li>
+                      <li>
+                        <div class="form-group"> <a href="javascript:void(0);" class="btn dwnld-btn">Book</a> </div>
+                      </li>
+                    </ul>
+                  </div>
+                <!-- table ends here --> 
+              </div>
+              
+              <!-- cost saver option table start here -->
+              <div class="choose-vendor cost-saver">
+                <div class="pull-left">
+                  <h2 class="inner-h2">Cost Saver Options</h2>
+                </div>
+                <div class="clearfix"></div>
+                <div class="table-responsive">
+                  <table class="data-table table" cellspacing="0" width="100%">
+                    <thead>
+                      <tr>
+                        <th>Route</th>
+                        <th>Distance</th>
+                        <th>Duration</th>
+                        <th>Estimated Fare</th>
+                        <th>Vendor Id</th>
+                        <th>Vehicle Type</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><div class="form-group">
+                            <input class="magic-checkbox" type="checkbox" name="filter" id="cs-1" value="option1">
+                            <label class="pull-left captext" for="cs-1"> <span>Dombivili - Cheyyur</span> </label>
+                          </div></td>
+                        <td>10 Kms</td>
+                        <td>24 Hrs</td>
+                        <td>14,000</td>
+                        <td>V00045</td>
+                        <td>Fbh 40</td>
+                      </tr>
+                      <tr>
+                        <td><div class="form-group">
+                            <input class="magic-checkbox" type="checkbox" name="filter" id="cs-2" value="option1">
+                            <label class="pull-left captext" for="cs-2"> <span>Dombivili - Cheyyur</span> </label>
+                          </div></td>
+                        <td>100 Kms</td>
+                        <td>24 Hrs</td>
+                        <td>14,000</td>
+                        <td>V00045</td>
+                        <td>Fbh 40</td>
+                      </tr>
+                      <tr>
+                        <td><div class="form-group">
+                            <input class="magic-checkbox" type="checkbox" name="filter" id="cs-3" value="option1">
+                            <label class="pull-left captext" for="cs-3"> <span>Dombivili - Cheyyur</span> </label>
+                          </div></td>
+                        <td>100 Kms</td>
+                        <td>24 Hrs</td>
+                        <td>14,000</td>
+                        <td>V00045</td>
+                        <td>Fbh 40</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="clearfix"></div>
+                  <div class="btn-wrapper">
+                    <ul class="list-inline leaderbrd-filter text-right">
+                      <li>
+                        <div class="form-group"> <a href="javascript:void(0);" class="btn dwnld-btn">View</a> </div>
+                      </li>
+                      <li>
+                        <div class="form-group"> <a href="javascript:void(0);" class="btn dwnld-btn">Book</a> </div>
+                      </li>
+                    </ul>
+                  </div>
+                <!-- cost saver option table ends here --> 
+                
+              </div>
+            </div>
+            <!-- choose-your-mode left area ends here --> 
+            
+            <!-- choose-your-mode right area start here -->
+            <div class="mid-left pull-left">
+              <div class="mode-type">
+                <h2 class="inner-h2">Mode</h2>
+                <span class="mode">Load Type</span> </div>
+                <div class="load-details">
+                  <h2 class="inner-h2">Delivery Details</h2>
+                  <span class="mode">Load Type</span> <span class="mode">Pickup Date</span> <span class="mode">Commodity</span> <span class="mode">Cargo Origin</span> <span class="mode">Consignment Weight</span> <span class="mode">Hazardous</span> <span class="mode">Cargo Destination</span> <span class="mode">Expected NO. of Truck</span> <span class="mode">Vehicle Type</span> <span class="mode">Special Requirement</span> 
+                </div>
+                <div class="load-details">
+                  <h2 class="inner-h2">Payment Details</h2>
+                  <span class="mode">Mode of payment</span> 
+                  <span class="mode">Reference No.</span> 
+                  <span class="mode">Bank Name</span>
+                  <span class="mode"> <a href="javascript:void(0);"> <img src="assets/images/pdf-dwnld.png" alt="" /> </a> </span> 
+                </div>
+            </div>
+            <!-- choose-your-mode right area ends here --> 
+          </div>
+        </div>
+        <div class="row setup-content" id="step-3">
+          <div class="trans-pay"> 
+            <!-- payment left area start here -->
+            <div class="mid-right pull-left">
+              <div class="choose-vendor text-center pay-details">
+                <div class="pay-detail-title">
+                  <div class="pull-left">
+                    <h2 class="inner-h2">Payment Details</h2>
+                  </div>
+                  <div class="pull-right leaderbrd-filter pay-history">
+                    <ul class="list-inline">
+                      <li>
+                        <div class="form-group"> 
+                          <a href="javascript:void(0);" class="btn dwnld-btn filter-here"> History </a> 
+                        </div>
+                        <div class="clearfix"></div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>  
+                <div class="clearfix"></div>
+      
+                <div class="new-input">
+                  <div class="">
+                    <form>  
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <input type="text" required="required" class="form-control" placeholder="Customer"  />
+                            <label for="">Customer</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <input type="text" required="required" class="form-control" placeholder="Mode of Transaparent"  />
+                            <label for="">Mode of Transaparent</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group search-pay-det">
+                            <input type="text" required="required" class="form-control" placeholder="Order"  />
+                            <label for="">Order</label>
+                            <span class="input-group-btn"> 
+                              <button class="btn btn-green" type="button">
+                                  <i class="fa fa-search"></i>
+                              </button> 
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <div class="date">
+                              <div class="input-group input-append date datePicker">
+                                <input type="text" class="form-control form-c" placeholder="To Date" name="date" />
+                                <span class="input-group-addon add-on"><i class="fa fa-calendar-o" aria-hidden="true"></i></span> 
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <div class="date">
+                              <div class="input-group input-append date datePicker">
+                                <input type="text" class="form-control form-c" placeholder="From Date" name="date" />
+                                <span class="input-group-addon add-on"><i class="fa fa-calendar-o" aria-hidden="true"></i></span> 
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                    </form>  
+                  </div>
+                </div>
+          
+                <div class="clearfix"></div>
+          
+                <!-- table start here -->
+                <div class="pay-history-table">
+                  <div class="table-responsive">
+                    <table class="data-table table" cellspacing="0" width="100%">
+                      <thead>
+                        <tr>
+                          <th>Order No</th>
+                          <th>Order Date</th>
+                          <th>Pickup Date</th>
+                          <th>Origin</th>
+                          <th>Destination</th>
+                          <th>Mode</th>
+                          <th>Status</th>
+                          <th>Outstanding Amount</th>
+                          <th>Amount to pay</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>     
+                          <td>
+                            <div class="form-group">
+                              <input class="magic-checkbox" type="checkbox" name="filter" id="ORD-1" value="option1">
+                              <label class="pull-left captext" for="ORD-1"> <span>ORD/2017/08</span> </label>
+                            </div>
+                          </td>
+                          <td>DD-MM-YY</td>
+                          <td>DD-MM-YY</td>
+                          <td>Mumbai</td>
+                          <td>Thane</td>
+                          <td>Truck</td>
+                          <td>Confirmed</td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>     
+                          <td>
+                            <div class="form-group">
+                              <input class="magic-checkbox" type="checkbox" name="filter" id="ORD-2" value="option1">
+                              <label class="pull-left captext" for="ORD-2"> <span>ORD/2017/08</span> </label>
+                            </div>
+                          </td>
+                          <td>DD-MM-YY</td>
+                          <td>DD-MM-YY</td>
+                          <td>Mumbai</td>
+                          <td>Thane</td>
+                          <td>Truck</td>
+                          <td>Confirmed</td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>     
+                          <td>
+                            <div class="form-group">
+                              <input class="magic-checkbox" type="checkbox" name="filter" id="ORD-3" value="option1">
+                              <label class="pull-left captext" for="ORD-3"> <span>ORD/2017/08</span> </label>
+                            </div>
+                          </td>
+                          <td>DD-MM-YY</td>
+                          <td>DD-MM-YY</td>
+                          <td>Mumbai</td>
+                          <td>Thane</td>
+                          <td>Truck</td>
+                          <td>Confirmed</td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>     
+                          <td>
+                            <div class="form-group">
+                              <input class="magic-checkbox" type="checkbox" name="filter" id="ORD-4" value="option1">
+                              <label class="pull-left captext" for="ORD-4"> <span>ORD/2017/08</span> </label>
+                            </div>
+                          </td>
+                          <td>DD-MM-YY</td>
+                          <td>DD-MM-YY</td>
+                          <td>Mumbai</td>
+                          <td>Thane</td>
+                          <td>Truck</td>
+                          <td>Confirmed</td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>     
+                          <td colspan="7" align="right">
+                            <span class="f-halve-medi">Total</span>
+                          </td>
+                          <td><span class="f-halve-medi">12</span></td>
+                          <td><span class="f-halve-medi">1</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>  
+                <!-- table ends here --> 
+                <div class="clearfix"></div>
+        
+                <div class="pull-left">
+                  <h2 class="inner-h2">Payment</h2>
+                </div>
+                <div class="clearfix"></div>
+           
+                <div class="new-input payment-fields">
+                  <div class="row">
+                    <form>  
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <input type="text" required="required" class="form-control" placeholder="* Payment Reference No."  />
+                          <label for=""><i>*</i> Payment Reference No.</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <input type="text" required="required" class="form-control" placeholder="* Bank Name"  />
+                          <label for=""><i>*</i> Bank Name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <input type="text" required="required" class="form-control" placeholder="* Remittance Date"  />
+                          <label for=""><i>*</i> Remittance Date</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <input type="text" required="required" class="form-control" placeholder="* Amount"  />
+                          <label for=""><i>*</i> Amount</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <input type="text" required="required" class="form-control" placeholder="* Payer Account Number"  />
+                          <label for=""><i>*</i> Payer Account Number</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <input type="text" required="required" class="form-control" placeholder="* Remarks"  />
+                          <label for=""><i>*</i> Remarks</label>
+                        </div>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="last-bot-btn text-center">
+                        <button class="btn btn-next nextBtn btn-lg center-block" type="button">Submit</button>
+                      </div>
+                    </form>  
+                  </div>
+                </div>
+          
+                <div class="clearfix"></div>
+
+              </div>
+            </div>
+            <!-- payment left area ends here --> 
+            
+            <!-- payment right area start here -->
+            <div class="mid-left pull-left">
+              <div class="mode-type">
+                <h2 class="inner-h2">Mode</h2>
+                <span class="mode">Load Type</span> </div>
+              <div class="load-details">
+                <h2 class="inner-h2">Load Details</h2>
+                <span class="mode">Load Type</span> <span class="mode">Pickup Date</span> <span class="mode">Commodity</span> <span class="mode">Cargo Origin</span> <span class="mode">Consignment Weight</span> <span class="mode">Hazardous</span> <span class="mode">Cargo Destination</span> <span class="mode">Expected NO. of Truck</span> <span class="mode">Vehicle Type</span> <span class="mode">Special Requirement</span> <span class="mode"> <a href="javascript:void(0);"> <img src="assets/images/pdf-dwnld.png" alt="" /> </a> </span> 
+              </div>
+            </div>
+            <!-- payment right area ends here --> 
+          </div>
+        </div>
+          <!-- transaction left area ends here --> 
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <div class="clearfix"></div>
+  <!-- footer start here -->
+  <footer class="footer">
+    <div class="container top-footer">
+      <div class="row">
+        <div class="col-md-4 GetInTouch pull-right col-sm-12">
+          <h4 class="text-uppercase">Get In Touch</h4>
+          <div class="getFormDiv">
+            <form>
+              <div class="form-group"> <span class="input input--kaede">
+                <input class="input__field input__field--kaede" type="text" id="input-5" />
+                <label class="input__label input__label--kaede" for="input-5"> <span class="input__label-content input__label-content--kaede">Your Name</span> </label>
+                </span> </div>
+              <div class="form-group m_bot0"> <span class="input input--kaede">
+                <input class="input__field input__field--kaede" type="text" id="input-6" />
+                <label class="input__label input__label--kaede" for="input-6"> <span class="input__label-content input__label-content--kaede">Your Email</span> </label>
+                </span> </div>
+              <div class="form-group msgs"> <span class="input input--kaede">
+                <textarea class="input__field input__field--kaede textarea-1" type="text" id="input-15"></textarea>
+                </textarea>
+                <label class="input__label input__label--kaede textarea-lable" for="input-15"> <span class="input__label-content input__label-content--kaede"> Message</span> </label>
+                </span> 
+                
+                <!-- <textarea class="form-control"></textarea> --> 
+                <!-- <input type="text" class="form-control" placeholder="Your Massage" /> --> 
+              </div>
+              <input type="submit" value="SUBMIT" class="btn bg-green" />
+            </form>
+          </div>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <div class="row footer-left">
+            <div class="col-xs-12">
+              <h4 class="text-uppercase">Contact Us</h4>
+            </div>
+            <div class="col-md-4">
+              <h4><img src="assets/images/email.png" alt="" />EMAIL</h4>
+              <div class="footer-inner">
+                <div class="foot-details">
+                  <h5>Business</h5>
+                  <a href="mailto:communication@logistikforce.com"> <small>communication@logistiksforce.com</small> </a> </div>
+                <div class="foot-details">
+                  <h5>Media</h5>
+                  <a href="mailto:communication@logistikforce.com"> <small>communication@logistiksforce.com</small> </a> </div>
+                <div class="foot-details">
+                  <h5>Careers</h5>
+                  <a href="mailto:careers@logistikforce.com"> <small>careers@logistiksforce.com</small> </a> </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h4><img src="assets/images/offices-loc.png" alt="" /> OFFICES</h4>
+              <div class="footer-inner">
+                <div class="foot-details"> 
+                  <!-- <select class="form-control">
+                          <option>Corporate Office</option>
+                          <option>Registered Office</option>
+                        </select> -->
+                  <select class="selectpicker" name="country_selector" data-placeholder="Select a country">
+                    <option>Select a country</option>
+                    <option>Åland Islands</option>
+                    <option>Albania</option>
+                  </select>
+                  <small> Logistiks Force <br />
+                  102, Technopolis Knowledge Park,<br />
+                  Mahakali Caves Road, Chakala, Andheri (E), <br />
+                  Mumbai- 400 093 <br />
+                  Maharashtra, India </small> </div>
+              </div>
+            </div>
+            <div class="col-md-4 footer-navs">
+              <ul class="list-unstyled">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Media & Communications</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li>
+                  <ul class="list-inline">
+                    <li><a href=""><img src="assets/images/Facebook.png" alt="" /></a></li>
+                    <li><a href=""><img src="assets/images/Twitter.png" alt="" /></a></li>
+                    <li><a href=""><img src="assets/images/LinkedIn.png" alt="" /></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container desktop">
+        <div class="row">
+          <div class="col-sm-5"> 2017 @ Copyrights Logistiksforce <a href=""> Sitemap </a> | <a href=""> Privacy Policy </a> </div>
+          <div class="col-sm-4 text-center">All rights reserved</div>
+          <div class="col-sm-3 text-right"> <a href="">Powered by EvolutionCO.</a> </div>
+        </div>
+      </div>
+      <div class="text-center mobile">
+        <ul class="list-inline">
+          <li><a href="">Sitemap | </a></li>
+          <li><a href="">Privacy Policy | </a></li>
+          <li><a href="">All Right Reserved</a></li>
+        </ul>
+        <div>
+          <p>2017 @ Copyrights Logistiksforce</p>
+          <div class="clearfix"></div>
+          <a href="http://evolutionco.com/" target="_blank">Powered by EvolutionCO.</a> </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends here --> 
+  
+</div>
+<!-- page wrapper ends here -->
+<div class="clearfix"></div>
+
+<!-- jQuery Library --> 
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<!-- /*home banner js*/ --> 
+<script src="assets/js/TweenMax.min.js"></script> 
+<script src="assets/js/jquery-parallax.js"></script> 
+<script src="assets/js/owl.carousel.min.js"></script> 
+<script src="assets/js/vue.js"></script> 
+<script src="assets/js/vue-carousel-3d.min.js"></script> 
+<script src="assets/js/classie.js"></script> 
+<script src="assets/js/header3d.js"></script> 
+<script src="assets/js/bootstrap-select.js"></script> 
+<script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script> 
+<script src="assets/js/bootstrap-select.js"></script> 
+<!-- bxSlider Javascript file --> 
+<script src="assets/js/jquery.bxslider.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<!-- custom js --> 
+<script src="assets/js/main.js"></script>
+<script>
+  window.onload=function(){
+      $('.selectpicker').selectpicker();
+};
+</script>
+
+</body>
+</html>

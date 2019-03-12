@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* Montserrat Reguler*/
+@font-face {
+    font-family: 'Montserrat-reguler';
+    src: url('../fonts/MONTSERRATALTERNATES-REGULAR_0.eot');
+    src: url('../fonts/MONTSERRATALTERNATES-REGULAR_0.woff2') format('woff2'), 
+    url('../fonts/MONTSERRATALTERNATES-REGULAR_0.woff') format('woff'), 
+    url('../fonts/MONTSERRATALTERNATES-REGULAR_0.ttf') format('truetype'), 
+    url('../fonts/MONTSERRATALTERNATES-REGULAR_0.svg#MONTSERRATALTERNATES-REGULAR_0') format('svg'), 
+    url('../fonts/MONTSERRATALTERNATES-REGULAR_0.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Montserrat thin*/
+@font-face {
+    font-family: 'Montserrat-thin';
+    src: url('../fonts/MONTSERRATALTERNATES-THIN_0.eot');
+    src: url('../fonts/MONTSERRATALTERNATES-THIN_0.woff2') format('woff2'), 
+    url('../fonts/MONTSERRATALTERNATES-THIN_0.woff') format('woff'), 
+    url('../fonts/MONTSERRATALTERNATES-THIN_0.ttf') format('truetype'), 
+    url('../fonts/MONTSERRATALTERNATES-THIN_0.svg#MONTSERRATALTERNATES-THIN_0') format('svg'), 
+    url('../fonts/MONTSERRATALTERNATES-THIN_0.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Montserrat Medium*/
+@font-face {
+    font-family: 'Montserrat-medium';
+    src: url('../fonts/MONTSERRATALTERNATES-MEDIUM_0.eot');
+    src: url('../fonts/MONTSERRATALTERNATES-MEDIUM_0.woff2') format('woff2'), 
+    url('../fonts/MONTSERRATALTERNATES-MEDIUM_0.woff') format('woff'), 
+    url('../fonts/MONTSERRATALTERNATES-MEDIUM_0.ttf') format('truetype'), 
+    url('../fonts/MONTSERRATALTERNATES-MEDIUM_0.svg#MONTSERRATALTERNATES-MEDIUM_0') format('svg'), 
+    url('../fonts/MONTSERRATALTERNATES-MEDIUM_0.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Montserrat Bold*/
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../fonts/MONTSERRATALTERNATES-BOLD_0.eot');
+    src: url('../fonts/MONTSERRATALTERNATES-BOLD_0.woff2') format('woff2'), 
+    url('../fonts/MONTSERRATALTERNATES-BOLD_0.woff') format('woff'), 
+    url('../fonts/MONTSERRATALTERNATES-BOLD_0.ttf') format('truetype'), 
+    url('../fonts/MONTSERRATALTERNATES-BOLD_0.svg#MONTSERRATALTERNATES-BOLD_0') format('svg'), 
+    url('../fonts/MONTSERRATALTERNATES-BOLD_0.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Montserrat Black*/
+@font-face {
+    font-family: 'Montserrat-black';
+    src: url('../fonts/MONTSERRATALTERNATES-BLACK_0.eot');
+    src: url('../fonts/MONTSERRATALTERNATES-BLACK_0.woff2') format('woff2'), 
+    url('../fonts/MONTSERRATALTERNATES-BLACK_0.woff') format('woff'), 
+    url('../fonts/MONTSERRATALTERNATES-BLACK_0.ttf') format('truetype'), 
+    url('../fonts/MONTSERRATALTERNATES-BLACK_0.svg#MONTSERRATALTERNATES-BLACK_0') format('svg'), 
+    url('../fonts/MONTSERRATALTERNATES-BLACK_0.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* halvetica Reguler*/
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/halve-reg.eot');
+    src: url('../fonts/halve-reg.woff2') format('woff2'), 
+    url('../fonts/halve-reg.woff') format('woff'), 
+    url('../fonts/halve-reg.ttf') format('truetype'), 
+    url('../fonts/halve-reg.svg#halve-reg') format('svg'), 
+    url('../fonts/halve-reg.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* halvetica Light*/
+@font-face {
+  font-family: 'Helvetica-Light';
+  src: url('../fonts/Helvetica-Light.eot');
+  src: url('../fonts/Helvetica-Light.woff2') format('woff2'),
+       url('../fonts/Helvetica-Light.woff') format('woff'),
+       url('../fonts/Helvetica-Light.ttf') format('truetype'),
+       url('../fonts/Helvetica-Light.svg#Helvetica-Light') format('svg'),
+       url('../fonts/Helvetica-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
